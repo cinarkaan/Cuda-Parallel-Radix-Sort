@@ -38,7 +38,7 @@ __global__ void getMaxOnGpu(const int* G_arr, int dataSize, int* Out) {
                 particalMax[tid] = particalMax[tid + stride];
         __syncthreads();
     }
-    if (tid == 0)
+    if (tid == 0) 
         Out[blockIdx.x] = particalMax[0];
 }
 
