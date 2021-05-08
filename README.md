@@ -1,11 +1,7 @@
 # Cuda-Parallel-Radix-Sort
  
 
-<img src="Aşama3Cpu.png">
-
-<br><br>
-
-<img src="Aşama3Gpu.png">
+<img src="RadixSort.png">
 
 <br><br>
 
